@@ -1,0 +1,31 @@
+
+
+.gradient {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+
+}
+.dropdown > p{
+    @apply text-blue-800  border-2 p-2 hover:bg-slate-600 border-primary hover:text-white cursor-pointer
+}
+
+.text-color {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+};
+
+
+
+/*  color: transparent;
+    /* Set text color to transparent */
+
+/* Set text color to transparent for older Webkit browsers */
+
+/* Apply background to text content */
+
+/* Apply background to text con */
